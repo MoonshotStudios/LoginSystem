@@ -26,7 +26,7 @@ cd ..
 echo Deleting download folder...
 rmdir LoginSystem-master
 echo Deleting zip...
-rmdir LoginSystem-master.zip
+del LoginSystem-master.zip
 cd %USERPROFILE%/LoginSystem
 move LoginSystemUninstaller.bat %USERPROFILE%
 cd ..
