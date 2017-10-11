@@ -11,9 +11,9 @@ mkdir LoginSystem
 cd %USERPROFILE%/Downloads/LoginSystem-master/LoginSystem-master
 echo Installing program files...
 move correct.bat %USERPROFILE%/LoginSystem
-move Login.bat %/USERPROFILE%/LoginSystem
-move Password.txt %/USERPROFILE%/LoginSystem
-move username.txt %/USERPROFILE%/LoginSystem
+move Login.bat %USERPROFILE%/LoginSystem
+move Password.txt %USERPROFILE%/LoginSystem
+move username.txt %USERPROFILE%/LoginSystem
 echo Installing uninstaller...
 move LoginSystemUninstaller.bat %USERPROFILE%/LoginSystem
 pause
